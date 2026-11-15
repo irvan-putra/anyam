@@ -65,7 +65,3 @@ Suggestion, not a commitment or a result: try one real feature interview,
 manually review the extracted constraints, then check whether the feedback
 catches an actual misunderstanding. No need to build the whole platform
 first.
-
-Across the four sibling repos (gotong, mimpi, anyam, jejak): choose just
-one next rather than abandoning the others; jejak is the suggested first
-pick as the clearest, lowest-commitment test.
