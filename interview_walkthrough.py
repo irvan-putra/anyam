@@ -15,12 +15,12 @@ for a team-planning tool). It exists to make the pipeline inspectable:
     language the original contributor could read.
 
 Honest limits, stated plainly:
-  * The "extraction" here is scripted for the script. A real system
+  * The "extraction" here is AI-written for the script. A real system
     would need an AI interviewer whose elicitation quality is itself
     unevaluated - this demo says nothing about that working.
   * Confirmed-by-a-human is a state, not a guarantee: a confirmed
     constraint can still be wrong.
-  * The checks are scripted assertions against a toy implementation,
+  * The checks are AI-written assertions against a toy implementation,
     NOT automatically generated integration tests. No claim is made that
     narrative answers can be reliably compiled into test code.
 
@@ -56,7 +56,7 @@ INTERVIEW = [
      "destroys trust in the digest fast."),
 ]
 
-# --- 2. Draft constraints extracted from answers (scripted for the demo) -
+# --- 2. Draft constraints extracted from answers (AI-written for the demo) -
 # state: PROPOSED until a human confirms; ADJUDICATED when a human resolves
 # an apparent contradiction.
 CONSTRAINTS = [
@@ -129,9 +129,9 @@ def toy_digest_decisions(day, items, sent_this_week):
     return sent
 
 
-# --- 5. Run confirmed scenarios as scripted checks ----------------------
+# --- 5. Run confirmed scenarios as AI-written checks ----------------------
 def check(scenario_id):
-    """Scripted assertions per scenario. Returns (passed, evidence)."""
+    """AI-written assertions per scenario. Returns (passed, evidence)."""
     if scenario_id == "S1":
         items = [("write report", "open", False)]
         first = toy_digest_decisions("Monday", items, sent_this_week=False)
@@ -168,7 +168,7 @@ def main():
     args = ap.parse_args()
 
     print("SCRIPTED WALKTHROUGH - fictional feature, fictional people.")
-    print("Extraction and checks are scripted; nothing here shows an AI")
+    print("Extraction and checks are AI-written; nothing here shows an AI")
     print("interviewer or automatic test generation working.\n")
 
     print("1. INTERVIEW (scripted)")

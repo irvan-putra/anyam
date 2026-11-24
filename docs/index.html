@@ -55,7 +55,7 @@ algorithm.</p>
 <p><code>interview_walkthrough.py</code> scripts the full loop on one fictional
 feature (a weekly digest email): a scripted interview becomes draft constraints
 with explicit <strong>proposed / confirmed / adjudicated</strong> states and
-per-answer provenance; confirmed constraints become scenarios; scripted
+per-answer provenance; confirmed constraints become scenarios; AI-written
 checks run against a toy implementation with a planted bug, and failures come
 back in plain language the original contributor can read.</p>
 <pre>python3 interview_walkthrough.py                 # full walkthrough
@@ -65,7 +65,7 @@ python3 interview_walkthrough.py --viz walkthrough.png</pre>
 <p>The demo catches its planted bug: the toy implementation sends a Saturday
 digest despite the confirmed "never on weekends" constraint, and two scenarios
 fail with evidence traced back to the exact interview answers. The extraction
-and checks are scripted for the script - this shows the loop's shape, not an
+and checks are AI-written for the script - this shows the loop's shape, not an
 AI interviewer or automatic test generation working.</p>
 
 <h2>Status and caveats</h2>
