@@ -65,3 +65,7 @@ Suggestion, not a commitment or a result: try one real feature interview,
 manually review the extracted constraints, then check whether the feedback
 catches an actual misunderstanding. No need to build the whole platform
 first.
+
+---
+
+Built with AI assistance (Instinct and others). Not everything has been reviewed by Irvan.
