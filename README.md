@@ -43,9 +43,9 @@ proposal itself remains unvalidated.
 `interview_walkthrough.py` is a scripted walkthrough of the closed loop
 described in the update note: a fictional interview becomes draft constraints
 with explicit proposed/confirmed/adjudicated states and per-answer
-provenance; confirmed constraints become scenarios; hand-written checks run
+provenance; confirmed constraints become scenarios; scripted checks run
 against a toy implementation and report evidence in plain language. The
-extraction and checks are hand-written for the demo - no claim that an AI
+extraction and checks are scripted for the demo - no claim that an AI
 interviewer or automatic test generation works.
 
     python3 interview_walkthrough.py                 # full walkthrough
